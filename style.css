@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(./fons/opensans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Noto Sans;
+    src: url(./fons/Noto_Sans/NotoSans-BlackItalic.ttf);
+}
+
+.site {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site .navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+}
+
+.site .navbar .navbar_block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site .navbar .navbar_block .logo {
+    flex-grow: 2;
+}
+
+.site .navbar .navbar_block ul {
+    flex-grow: 4;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #352524;
+    opacity: 0.6
+}
+
+.site .navbar .navbar_block ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #352524;
+    opacity: 0.6
+}
+
+.site .navbar .navbar_block ul li form {
+    height: 100%;
+    position: relative;
+}
+
+.site .navbar .navbar_block ul li form select {
+    width: 157px;
+    height: 42px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background: rgba(51, 51, 51, 0.08);
+}
+
+.site .navbar .navbar_block ul li form select:focus {
+    outline: none;
+}
+
+.site .navbar .navbar_block ul li form img {
+    top: 12.75px;
+    left: 24.58px;
+    position: absolute;
+}
+
+.site .navbar .navbar_block ul li button {
+    background: #DF953A;
+    border-radius: 30px;
+    width: 167px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    line-height: 42px;
+}
+
+.site .navbar .navbar_block ul li button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_block {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_block .inputs {
+    width: 517px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    margin: 40px 0;
+}
+
+.main_block .inputs input {
+    height: 69px;
+    width: 376px;
+    padding-left: 69px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+}
+
+.main_block .inputs input:focus {
+    outline: none;
+}
+
+.main_block .inputs img {
+    position: absolute;
+    top: 26px;
+    left: 33px;
+}
+
+.main_block .inputs button {
+    width: 142px;
+    height: 70px;
+    background: #DF953A;
+    border: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.a {
+    width: 95%;
+    height: 40px;
+}
+
+.a a {
+    width: 196px;
+    height: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.showcase {
+    width: 1584px;
+    height: 2532px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.showcase .video img {
+    position: relative;
+    left: 624px;
+    top: 80px;
+}
+
+.showcase_right {
+    width: 90%;
+    position: relative;
+    top: 750px;
+    right: 490px;
+}
+
+.showcase_right h2 {
+    width: 769px;
+    position: relative;
+    top: 55px;
+    height: 49px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.showcase_right p {
+    width: 1079px;
+    height: 228px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #333333;
+    opacity: 0.6;
+    flex: none;
+    order: 0;
+    position: relative;
+    top: 130px;
+}
+
+.p {
+    width: 246px;
+    height: 567px;
+    position: relative;
+    top: 90px;
+}
+
+.p h2 {
+    width: 188px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.p p {
+    width: 232px;
+    height: 27px;
+    position: relative;
+    top: 75px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.rasmlar p{
+    position: relative;
+    right: 100px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-column-gap: 1%;
+    grid-row-gap: 30px; 
+    position: relative;
+    right: 100px;
+}
+
+.title {
+    width: 90%;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title .title_block {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 550px;
+    top: 80px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.footer .footer_block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.footer .footer_block .logo {
+    flex-grow: 2;
+}
+
+.footer .footer_block ul {
+    flex-grow: 4;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_block ul li a {
+    text-decoration: none;
+    color: #352524;
+    line-height: 42px;
+}
+
+.showcase_left {
+    width: 10%;
+    height: 490px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 589px;
+    top: 774px;
+}
+
+.showcase_left img {
+    padding: 45px 0;
+}
